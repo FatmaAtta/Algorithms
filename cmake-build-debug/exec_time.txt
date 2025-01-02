@@ -1,0 +1,4 @@
+auto start = chrono::high_resolution_clock::now();
+auto end = chrono::high_resolution_clock::now();
+chrono::duration<double, milli> elapsed = end - start;
+cout<<"Execution time: "<< elapsed.count()<< " ms\n";
