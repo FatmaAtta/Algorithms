@@ -4,7 +4,7 @@ project(Algorithms)
 set(CMAKE_CXX_STANDARD 23)
 
 # Get all .cpp files in the "src" directory
-file(GLOB CPP_FILES "src/*.cpp")
+file(GLOB CPP_FILES "*.cpp")
 
 # Loop through each .cpp file and create an executable
 foreach(CPP_FILE ${CPP_FILES})
